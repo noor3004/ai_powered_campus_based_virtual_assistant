@@ -1,0 +1,15 @@
+<div class="chat-container">
+  <div class="chat-box">
+    <div *ngFor="let msg of messages" [ngClass]="{'user-message': msg.sender === 'User', 'bot-message': msg.sender === 'Bot'}">
+      <p [innerHTML]="msg.text"></p>
+      <a *ngIf="msg.url" [href]="msg.url" target="_blank" class="bot-link">Click here</a>
+      <img *ngIf="msg.imageUrl" [src]="msg.imageUrl" alt="Image" class="bot-image">
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" [(ngModel)]="userMessage" (keyup.enter)="sendMessage()" placeholder="Ask me anything..." />
+    <button (click)="sendMessage()">➤</button>
+    <button (click)="startSpeechRecognition()" [disabled]="isListening">🎤</button>
+  </div>
+</div>
