@@ -26,7 +26,7 @@ This project is an AI-powered virtual assistant designed for campus management. 
   bash
  # cd backend
   npm install
-  #cd ../frontend
+# cd ../frontend
   npm install
 
 3. Set up environment variables as needed (e.g., Hugging Face API keys).
