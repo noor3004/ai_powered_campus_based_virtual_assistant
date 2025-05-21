@@ -50,8 +50,6 @@ Response times: 1.5–2 seconds (database), 3–5 seconds (AI-generated)
 7. Contributing
 Feel free to fork this repo and submit pull requests for improvements or bug fixes.
 
-8. License
-This project is licensed under the MIT License.
 
 Developed by Mohammad Noor
 For any questions or feedback, please contact: noormohd2227@gmail.com
