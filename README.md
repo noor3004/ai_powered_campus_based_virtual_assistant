@@ -42,13 +42,14 @@ ng serve
 
 Access the web interface via http://localhost:4200.
 Type or speak your queries to get campus information and assistance.
-
-7. Performance
+# Performance
    FAQ matching accuracy: ~80%
+   
    Speech recognition accuracy: ~85% (clear audio)
+   
    Response times: 1.5–2 seconds (database), 3–5 seconds (AI-generated)
 
-8. Contributing
+# Contributing
 Feel free to fork this repo and submit pull requests for improvements or bug fixes.
 
 
